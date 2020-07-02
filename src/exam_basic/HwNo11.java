@@ -4,6 +4,8 @@ import java.util.*;
 
 public class HwNo11 {
 	
+	// 1부터 입력한 숫자까지의 누적합을 출력하시요
+	
 	public static void main(String[] args) {
 		
 		Scanner sc =new Scanner (System.in);

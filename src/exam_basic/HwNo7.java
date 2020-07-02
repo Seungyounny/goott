@@ -4,6 +4,13 @@ import java.util.*;
 
 public class HwNo7 {
 
+	
+//	몇줄 출력? 3
+//
+//		       *
+//		       **
+//		       ***
+	
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
 		
