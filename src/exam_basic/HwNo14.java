@@ -8,13 +8,16 @@ public class HwNo14 {
 	 */
 	public static void main(String[] args) {
 		
-//		for(int i=1;i<=100;i++) {
-//			String s=Integer.toString(i);
-//			if(s.contains("3")) {
-//				s=s.replace("3", "짝");
-//			}
-//			System.out.println(s);
-//		}
+		for(int i=1;i<=100;i++) {
+			String s=Integer.toString(i);
+			if(s.contains("3")) {
+				s=s.replace("3", "짝");
+			}
+			System.out.println(s);
+		}
+		
+		
+		
 		for(int i=1;i<100;i++) {
 			if((i%10==3 || i%10==6 || i%10==9)&&(i/10==3 || i/10==6 || i/10==9)){
 				System.out.println("짝짝");
