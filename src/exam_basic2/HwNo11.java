@@ -13,9 +13,21 @@ public class HwNo11 {
 	public static void main(String[] args) {
 		
 		int ans[] = new int[3];
+		
+		//ans[0] = (int) (Math.random() * 10);
+		
 		for (int i = 0; i < ans.length; i++) {
-			ans[i] = (int) (Math.random() * 10); // random 쓸 때 괄호 제대루 잘 하기 !
-			if()
+			int first = (int) (Math.random() * 45);
+			int second = (int) (Math.random() * 45);
+
+			int temp=0;
+			
+			 temp = ans[first];
+			 ans[first] = ans[second];
+			 ans[second] = temp;
+		}
+		for(int i=0;i<ans.length;i++) {
+			System.out.println(ans[i]);
 		}
 		int input[] = new int[3];
 
