@@ -16,8 +16,10 @@ package d20200706;
 
 public class MethodEx05 {
 	
-	void dimen(double d) {
-		System.out.println("넓이는 : " +d*d*3.14);
+	double dimen(double d) {
+		double result=  d*d*3.14;
+		
+		return result;
 	}
 	
 	void round (double d) {
@@ -27,7 +29,7 @@ public class MethodEx05 {
 	
 	public static void main(String[] args) {
 		MethodEx05 me5 =new MethodEx05();
-		me5.dimen(12.2);
+		System.out.println("넓이는" + me5.dimen(12.2));
 		me5.round(7.6);
 		
 	}
