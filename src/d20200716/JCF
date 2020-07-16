@@ -1,0 +1,22 @@
+자바 : 객체 지향
+- 오브젝트도 배열에 담아서 쓸 수 있음
+
+ex) String[] s = new String[10];
+    Button[] b = new Button[10];
+    Object[] o = new Object[10];
+    
+ - 단점 : 사용할 수록 객체는 늘어나는데 처음 지정한 [x] 배열을 쉽게 늘리거나 수정할 수 없음 
+ 
+    => 자료구조 (Collection) 
+    
+    + JCF ( java Collection Framework ) 
+    
+ - List : 순서가 존재, 중복된 값도 존재 : Vector, ArrayList, Stack.....
+ - Set  : 순서 X, 중복 X 		   : HashSet, TreeSet ....
+ - Map  : key  <------> value  : HashMap, HashTable ....
+          -------------------
+               	쌍으로 묶음
+          ex) ID  ------PW
+          	 : key - ID ( 중복 X -> 최근 값으로 덮어씀)
+          	 : value - PW ( 
+ 

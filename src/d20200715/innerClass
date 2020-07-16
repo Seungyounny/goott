@@ -1,0 +1,20 @@
++ InnerClass
+ : 클래스 안에 포함되어 있는 클래스
+ : 내부 클래스와 외부 클래스는 밀접한 관계에 있게 됨
+ => 내부 클래스에서 외부 클래스의 멤버 변수에 접근 가능
+ => private 한 멤버 변수를 사용 가능
+ 
+ 
+ + 구성요소
+  1. 멤버변수(필드)    --------> Member Inner Class
+  2. static 변수          --------> Static Inner Class
+  3. 멤버 메소드 - 변수    --------> Local Inner Class
+  4. 이름이 없는                --------> Anonymous Inner Class
+ 
+ 
++ 특징
+ 1. Inner Class는 static 변수가 있으면 안됨!
+ 2. Outer Class도 메인에서 new를 통해 인스턴스화를 해야 사용할 수 있는데,
+ 	Inner Class가 static으로 new 하지도 않고 먼저 사용할 수는 없음
+ 3. static Inner Class는 new를 사용하여 인스턴스화를 해야만 하는 변수는 접근할 수 없음
+ 4. Local Inner Class는 지역변수처럼 사용. {}를 벗어나면 사라지므로 그 전에 인스턴스화를 해줘야 함
