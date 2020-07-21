@@ -1,0 +1,10 @@
+Thread
+
+- CPU가 하는 각각의 동작 하나하나
+- 프로그램 내에서 실행되는 흐름의 단위
+- 일반적으로 최소한 하나의 thread를 갖고 있다. ( single thread ) 
+
+
+- multi thread를 구현하려면 Thread 클래스를 필요
+- thread는 java.lang package에 있음
+
